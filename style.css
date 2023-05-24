@@ -1,0 +1,146 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  /* side pe spacing k lye */
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.site-header {
+  padding: 0px;
+  background-color: #a02020;
+  border-bottom: 0px solid #6d4f4f;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-identity {
+  /* header ki editing */
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.site-identity h1 {
+  /* Physiology made Easy ki editing  */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3em;
+  background-size: cover;
+  margin: 0 0;
+  display: inline-block;
+  position: fixed;
+  top: 20px;
+  left: 175px;
+}
+
+.site-navigation {
+  /* menu ki editing */
+  position: fixed;
+  top: 5px;
+  right: 50px;
+  font-size: large;
+}
+
+.site-navigation li {
+  /* menu list ki editing */
+  display: inline-block;
+  margin: 1em 1em 1em 1em;
+
+}
+
+.container {
+  padding: 0px 0px;
+}
+
+.centered {
+  /* What is Physiology editing */
+  color: #ffffff;
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  font-family: cursive;
+  font-size: 30px;
+  text-align: left;
+}
+
+.centered3 {
+  /* what is Physiology descrption editing  */
+  position: absolute;
+  top: 130px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.details {
+  background-color: #ffffff;
+}
+
+.details ul li {
+  display: inline-block;
+  padding: 0%;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.video {
+  position: relative;
+  margin: 0%;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+/* FOOTER EDITING  */
+
+.footer {
+  padding: 20px 0;
+  background-color: #000000;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer ul a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  opacity: 1;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: #ffffff;
+}
